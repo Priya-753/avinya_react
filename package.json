@@ -1,0 +1,64 @@
+{
+  "name": "webapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/runtime": "^7.14.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@redux-saga/core": "^1.1.3",
+    "@reduxjs/toolkit": "^1.5.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.0",
+    "bootstrap-social": "5.1.1",
+    "font-awesome": "4.7.0",
+    "node-sass": "^6.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-multi-carousel": "^2.6.3",
+    "react-popper": "^1.3.11",
+    "react-redux": "^7.2.4",
+    "react-redux-form": "^1.16.14",
+    "react-router-dom": "4.2.2",
+    "react-scripts": "^4.0.3",
+    "react-select": "^4.3.1",
+    "reactstrap": "^8.9.0",
+    "redux": "^4.1.0",
+    "redux-saga": "^1.1.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "parser": "babel-eslint"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.23",
+    "lite-server": "^2.6.1",
+    "prettier": "^2.3.0"
+  }
+}
